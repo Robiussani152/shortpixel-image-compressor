@@ -1,7 +1,7 @@
 # Image compressor package using short pixel api for laravel
 
-[![Version](https://poser.pugx.org/robiussani152/shortpixel-image-compressor/v/stable.svg)](https://github.com/robiussani152/shortpixel-image-compressor/releases)
-[![Downloads](https://poser.pugx.org/robiussani152/shortpixel-image-compressor/d/total.svg)](https://github.com/robiussani152/shortpixel-image-compressor)
+<!-- [![Version](https://poser.pugx.org/robiussani152/shortpixel-image-compressor/v/stable.svg)](https://github.com/robiussani152/shortpixel-image-compressor/releases)
+[![Downloads](https://poser.pugx.org/robiussani152/shortpixel-image-compressor/d/total.svg)](https://github.com/robiussani152/shortpixel-image-compressor) -->
 
 This package is designed for compress uploaded image.
 
@@ -47,7 +47,7 @@ Robiussani152\ShortPixelImageCompressor\ShortPixelImageCompressorServiceProvider
 Add alias if you want to use the facade.
 
 ```php
-'Settings' => Robiussani152\ShortPixelImageCompressor\Facades\ShortPixelImageCompressor::class,
+'ShortPixelImageCompressor' => Robiussani152\ShortPixelImageCompressor\Facades\ShortPixelImageCompressor::class,
 ```
 
 ## Usage
