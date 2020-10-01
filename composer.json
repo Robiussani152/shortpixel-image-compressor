@@ -1,0 +1,31 @@
+{
+  "name": "robiussani152/shortpixel-image-compressor",
+  "description": "This package is for optimize image using shortpixel api.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robius Sani",
+      "email": "rsani152@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Robiussani152\\ShortPixelImageCompressor\\": "src"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Robiussani152\\ShortPixelImageCompressor\\ShortPixelImageCompressorServiceProvider"
+      ],
+      "aliases": {
+        "ShortPixelCompressor": "Robiussani152\\ShortPixelImageCompressor\\Facades\\ShortPixelImageCompressor"
+      }
+    }
+  }
+}
